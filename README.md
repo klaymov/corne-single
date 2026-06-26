@@ -3,7 +3,7 @@
 ## Структура файлів
 
 ```
-corne_single/
+corne-single/
 ├── config.h              ← піни, matrix, diode direction
 ├── info.json             ← опис клавіатури і layout
 ├── rules.mk              ← MCU, фічі
@@ -31,17 +31,17 @@ qmk setup
 
 ## Розміщення файлів
 
-Скопіюй папку `corne_single` в:
+Скопіюй папку `corne-single` в:
 ```
-~/qmk_firmware/keyboards/corne_single/
+~/qmk_firmware/keyboards/corne-single/
 ```
 
 ## Компіляція і прошивка
 
 ### Варіант A — звичайний QMK (без конфігуратора)
 ```bash
-qmk compile -kb corne_single -km default
-qmk flash -kb corne_single -km default
+qmk compile -kb corne-single -km default
+qmk flash -kb corne-single -km default
 ```
 
 ### Варіант B — з Vial (рекомендовано, є живий GUI конфігуратор)
@@ -59,10 +59,10 @@ cd vial-qmk
 make git-submodule
 ```
 
-4. Скопіюй папку `corne_single` туди і компілюй:
+4. Скопіюй папку `corne-single` туди і компілюй:
 ```bash
-qmk compile -kb corne_single -km vial
-qmk flash -kb corne_single -km vial
+qmk compile -kb corne-single -km vial
+qmk flash -kb corne-single -km vial
 ```
 
 5. Завантаж Vial GUI: https://get.vial.today/
