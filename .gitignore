@@ -1,0 +1,17 @@
+# QMK and Vial environment
+vial-qmk/
+
+# Firmware outputs
+*.hex
+*.bin
+*.uf2
+*.build
+.build/
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+
+# OS generated files
+.DS_Store
