@@ -10,10 +10,10 @@ Before you begin, ensure you have the following installed on your computer:
 ---
 
 ## Step 1: Locate the Firmware
-Make sure you have the compiled `.hex` firmware file. If you followed the build process successfully, it should be located at:
-`vial-qmk/corne_single_vial.hex`
+Make sure you have the pre-compiled `.hex` firmware file. You can find it right in this repository under the `firmware` folder:
+`firmware/corne_single_vial.hex`
 
-*(Note: If you haven't compiled it yet, you will need to build it using the QMK CLI or via Docker using the provided `vial-qmk` directory).*
+*(Note: If you want to modify the source code and compile it yourself, you will need to build it using the QMK CLI or Docker).*
 
 ---
 
